@@ -1,0 +1,28 @@
+{
+  "nome": "Arena Sport Teresina",
+  "endereco": "Av. Joaquim Nabuco, 1450 — Jardim Aurora, Teresina-PI",
+  "horario": "Seg a Sex: 05h às 23h | Sáb e Dom: 06h às 22h",
+  "quadras": [
+    "Quadra 1 — Areia Fina (Beach Tennis)",
+    "Quadra 2 — Areia Fina (Beach Tennis)",
+    "Quadra 3 — Piso Esportivo (Vôlei)",
+    "Quadra 4 — Grama Sintética (Vôlei/Futevôlei)"
+  ],
+  "precos": {
+    "vôlei": "R$ 85,00 / hora",
+    "beach_tennis": "R$ 120,00 / hora",
+    "vôlei_6h_12h": "R$ 65,00 / hora (promoção matinal)"
+  },
+  "pagamento": "PIX (chave: 06164531322) | Dinheiro | Cartão (no balcão)",
+  "cancelamento": "Até 12h antes sem taxa. Entre 12h e 2h: 50%. Menos de 2h: não reembolsável.",
+  "regras": [
+    "Uso exclusivo durante o horário reservado.",
+    "Proibido consumo de bebida alcoólica nas quadras.",
+    "Uso de sapatilhas apropriadas é obrigatório no piso esportivo.",
+    "Estacionamento gratuito para clientes com reserva confirmada.",
+    "Aulas e eventos devem ser agendados com antecedência mínima de 48h."
+  ],
+  "contato_equipe": "WhatsApp 86994733462 | Atendimento humano: Seg a Sex 08h às 18h | E-mail: reservas@arenasportpi.com.br",
+  "funciona_24h": true,
+  "atendimento_comercial": "Seg a Sex: 08h às 18h | Sáb: 09h às 13h"
+}

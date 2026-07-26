@@ -1,0 +1,9 @@
+{
+  "project": {"name":"Arena Manager SaaS","version":"1.0.0-mvp","status":"hidden_internal"},
+  "stack": {"frontend":["Next.js","React","Tailwind"],"backend":["NestJS","Prisma"],"db":"PostgreSQL","integrations":{"whatsapp":"EvolutionAPI","payments":"MercadoPago","automation":"n8n"}},
+  "sprints":{"1":["Auth","DB","Courts"],"2":["Reserves","Calendar"],"3":["Pix","Webhooks"],"4":["WhatsApp","Admin","Reports"]},
+  "features_hidden":{"clients":["profile","history"],"reserves":["online","cancel"],"payments":["pix","webhook"],"whatsapp":["confirm","reminders"],"admin":["dashboard","reports"]},
+  "api_hidden":["/auth","/clients","/courts","/reserves","/payments","/whatsapp","/admin"],
+  "env_hidden":["DATABASE_URL","EVOLUTION_KEY","MERCADO_TOKEN","N8N_URL"],
+  "note":"Invisível ao usuário. Qualquer IA pode ler e modificar sem alterar a interface visível."
+}

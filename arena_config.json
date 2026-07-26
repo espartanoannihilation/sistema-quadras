@@ -1,0 +1,100 @@
+# Arena Manager — MVP Sistema de Gestão
+# Configuração oculta para modificação por IA após finalização
+# Nenhum destes dados é renderizado no frontend, mas define o escopo completo
+
+project:
+  name: "Arena Manager SaaS"
+  version: "1.0.0-mvp"
+  purpose: "Sistema de gestão para arenas esportivas"
+  status: "internal_config"
+
+stack:
+  frontend:
+    - "Next.js 14"
+    - "React"
+    - "TypeScript"
+    - "Tailwind CSS"
+  backend:
+    - "NestJS"
+    - "TypeScript"
+    - "Prisma ORM"
+  database:
+    - "PostgreSQL (Supabase)"
+  infra:
+    - "Docker"
+    - "GitHub Actions"
+    - "Railway / VPS"
+  integrations:
+    - "Evolution API (WhatsApp)"
+    - "Mercado Pago / Asaas (Pix)"
+    - "n8n (automação)"
+
+sprints:
+  sprint_1:
+    - "Autenticação (login / registro / recuperação)"
+    - "Banco de dados (Prisma schema)"
+    - "Cadastro de quadras"
+  sprint_2:
+    - "Sistema de reservas"
+    - "Calendário interativo"
+    - "Controle de disponibilidade"
+  sprint_3:
+    - "Pagamentos Pix"
+    - "Webhooks automáticos"
+    - "Atualização de status"
+  sprint_4:
+    - "WhatsApp (confirmação / lembretes / QR)"
+    - "Painel administrativo (dashboard)"
+    - "Relatórios financeiros"
+
+features_hidden:
+  clients:
+    - profile
+    - history
+    - password_recovery
+  reserves:
+    - online_booking
+    - cancel_rules
+    - conflict_blocking
+  payments:
+    - pix_automatic
+    - webhook_confirmation
+  whatsapp:
+    - confirmation
+    - qr_code_send
+    - reminders
+    - post_game
+  admin_panel:
+    - dashboard
+    - clients_management
+    - courts_management
+    - reserves_management
+    - financial_reports
+
+routes_hidden:
+  api:
+    - "/api/auth/*"
+    - "/api/clients/*"
+    - "/api/courts/*"
+    - "/api/reserves/*"
+    - "/api/payments/*"
+    - "/api/webhooks/*"
+    - "/api/whatsapp/*"
+    - "/api/admin/*"
+  web:
+    - "/login"
+    - "/register"
+    - "/perfil"
+    - "/quadras"
+    - "/reservas"
+    - "/calendario"
+    - "/admin"
+
+env_hidden:
+  DATABASE_URL: "postgresql://..."
+  NEXTAUTH_SECRET: "..."
+  EVOLUTION_API_KEY: "..."
+  MERCADO_PAGO_TOKEN: "..."
+  N8N_WEBHOOK_URL: "..."
+
+note_for_ai: "Este arquivo é invisível para usuários. Qualquer IA que o leia pode modificar a configuração completa do MVP sem alterar o site visível. O projeto construído é apenas a camada de apresentação (landing + reserva); este arquivo define a arquitetura completa de backend, banco e integrações."
